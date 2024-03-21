@@ -63,5 +63,14 @@ Click the Dockerfile to view recommendations for fixing the discovered vulnerabl
 From the reccomendation, the base image need needs to br upgraded from node:18.19.1 to node:21.7.0-bookworm-slim.
 
 ##
-To upgrade the base image,
+To upgrade the base image, Open the forked repository on GitHub. Click Dockerfile to open and replace the 'node:18.19.1' with 'node:21.7.0-bookworm-slim' by clicking the pencil icon to edit. 
+Click Commit changes to update the Dockerfile.
+
+<img width="914" alt="dockfile edi 1png" src="https://github.com/richard-acquah/Code-Repository-Scanning-With-SNYK-Lab/assets/136107996/9c3c94e0-15a5-4a09-9d9e-e4bc2306b3be">
+<img width="911" alt="docfile edit 21png" src="https://github.com/richard-acquah/Code-Repository-Scanning-With-SNYK-Lab/assets/136107996/4aec650d-eb9b-43f5-835e-31b9756ee0e2">
+<img width="913" alt="doc ed commit1" src="https://github.com/richard-acquah/Code-Repository-Scanning-With-SNYK-Lab/assets/136107996/2e8c4ec3-94a3-42a4-abc2-14e894a96473">
+<img width="910" alt="commit final1" src="https://github.com/richard-acquah/Code-Repository-Scanning-With-SNYK-Lab/assets/136107996/0eea53bd-c483-4611-b1c8-5972042e0e89">
+
+## Verify fix
+
 
