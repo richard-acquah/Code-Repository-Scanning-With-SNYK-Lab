@@ -5,6 +5,7 @@ This lab's primary focus is scanning the forked code repository with SNYK to dis
 + Vulnerability scanning
 + In-depth knowledge of the Common Vulnerability Scoring System (CVSS)
 + Enhanced knowledge of Common Vulnerability and Exposure (CVE).
++ Vulnerability remediation.
 ## Resources/ Tools / Utilities
 + Windows 10 22H2 device with internet access.
 + Github account with a forked repository.
@@ -51,8 +52,16 @@ The issues section shows a critical vulnerability known as Integer Overflow with
 ##
 The issues section also shows three highe severity vulnerability known as Out-of-bound Write, Resource Exhaustion and Allocation of Resources Without Limits or Throttling with the CVSS score of 7.8, 7.5 and 7.5 respectively.
 
+### Vul. 1
+
 <img width="903" alt="vul high1" src="https://github.com/richard-acquah/Code-Repository-Scanning-With-SNYK-Lab/assets/136107996/828313aa-2d23-40dc-b0a4-0617042a0772">
+
+### Vul. 2
+
 <img width="915" alt="vul hig2" src="https://github.com/richard-acquah/Code-Repository-Scanning-With-SNYK-Lab/assets/136107996/b6d547fe-ca17-4f4d-9b4f-0a81844c5905">
+
+### Vul. 3
+
 <img width="811" alt="vul hi3" src="https://github.com/richard-acquah/Code-Repository-Scanning-With-SNYK-Lab/assets/136107996/048b6082-872e-4f35-aa98-31889cb079ed">
 
 ## Recommended fix
