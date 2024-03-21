@@ -63,14 +63,45 @@ Click the Dockerfile to view recommendations for fixing the discovered vulnerabl
 From the reccomendation, the base image need needs to br upgraded from node:18.19.1 to node:21.7.0-bookworm-slim.
 
 ##
-To upgrade the base image, Open the forked repository on GitHub. Click Dockerfile to open and replace the 'node:18.19.1' with 'node:21.7.0-bookworm-slim' by clicking the pencil icon to edit. 
-Click Commit changes to update the Dockerfile.
+To upgrade the base image, Open the forked repository on GitHub. 
 
 <img width="914" alt="dockfile edi 1png" src="https://github.com/richard-acquah/Code-Repository-Scanning-With-SNYK-Lab/assets/136107996/9c3c94e0-15a5-4a09-9d9e-e4bc2306b3be">
+
+##
+
+Click Dockerfile to open and replace the 'node:18.19.1' with 'node:21.7.0-bookworm-slim' by clicking the pencil icon to edit. 
 <img width="911" alt="docfile edit 21png" src="https://github.com/richard-acquah/Code-Repository-Scanning-With-SNYK-Lab/assets/136107996/4aec650d-eb9b-43f5-835e-31b9756ee0e2">
+
+##
+
+Click Commit changes to update the Dockerfile.
+
 <img width="913" alt="doc ed commit1" src="https://github.com/richard-acquah/Code-Repository-Scanning-With-SNYK-Lab/assets/136107996/2e8c4ec3-94a3-42a4-abc2-14e894a96473">
 <img width="910" alt="commit final1" src="https://github.com/richard-acquah/Code-Repository-Scanning-With-SNYK-Lab/assets/136107996/0eea53bd-c483-4611-b1c8-5972042e0e89">
 
 ## Verify fix
+To verify update, close and reopen SNYK check the current 
 
+## Old Base image
 
+<img width="920" alt="old image" src="https://github.com/richard-acquah/Code-Repository-Scanning-With-SNYK-Lab/assets/136107996/1ef00095-84da-46f3-862c-7402ce92418f">
+
+## New Base Image Update
+
+<img width="915" alt="new update" src="https://github.com/richard-acquah/Code-Repository-Scanning-With-SNYK-Lab/assets/136107996/591f4799-b436-4860-b1d2-779396e281d5">
+
+## Verify Vulnerability Fix 
+##
+
+The previous version of the Dockerfile base image had one critical severity issue, three high severity issues, one medium sevrity issue and one hundred and sixty-three low severity issues.
+
+<img width="916" alt="old vul" src="https://github.com/richard-acquah/Code-Repository-Scanning-With-SNYK-Lab/assets/136107996/98518bf7-79f3-4358-972e-b34df7548178">
+
+##
+
+The update eliminated two of the three high severity vulnerability, eliminated the medium severity vulnerability and one hundred and thirty vulnerabilities out of the one hundred and sixty-three vulnerabilities.
+
+<img width="890" alt="vul new fix" src="https://github.com/richard-acquah/Code-Repository-Scanning-With-SNYK-Lab/assets/136107996/603d9c3f-6e42-4d47-98a1-dd9f4e274576">
+
+## Conclusion
+Vulnerability scanning and remediation is an unending cycle of preventive measures put in place to reduce the attack surface of an organization.
