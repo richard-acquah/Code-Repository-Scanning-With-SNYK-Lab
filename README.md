@@ -45,12 +45,12 @@ Expand the fgxgm-SecurityCheckSample to view the files.
 ## Vulnerability Details 
 Click the Dockerfile to view details of the vulnerabilities. 
 
-The issues section shows a critical vulnerability known as Integer Overflow with CVSS score of 9.8 on the of 10.
+The issues section shows a critical vulnerability known as Integer Overflow with a CVSS score of 9.8 out of 10.
 
 <img width="880" alt="vuln detail criti1" src="https://github.com/richard-acquah/Code-Repository-Scanning-With-SNYK-Lab/assets/136107996/fc31b0e8-d9a9-47c0-996c-166fea960a20">
 
 ##
-The issues section also shows three highe severity vulnerability known as Out-of-bound Write, Resource Exhaustion and Allocation of Resources Without Limits or Throttling with the CVSS score of 7.8, 7.5 and 7.5 respectively.
+The issues section also shows three high-severity vulnerabilities known as Out-of-bound Write, Resource Exhaustion and Allocation of Resources Without Limits or Throttling with CVSS scores of 7.8, 7.5 and 7.5 respectively.
 
 ### Vul. 1
 
@@ -65,11 +65,11 @@ The issues section also shows three highe severity vulnerability known as Out-of
 <img width="811" alt="vul hi3" src="https://github.com/richard-acquah/Code-Repository-Scanning-With-SNYK-Lab/assets/136107996/048b6082-872e-4f35-aa98-31889cb079ed">
 
 ## Recommended fix
-Click the Dockerfile to view recommendations for fixing the discovered vulnerablilty. 
+Click the Dockerfile to view recommendations for fixing the discovered vulnerability. 
 
 <img width="920" alt="recom fix2" src="https://github.com/richard-acquah/Code-Repository-Scanning-With-SNYK-Lab/assets/136107996/f4ab4058-36be-471f-bdbd-60b59c322e31">
 
-From the reccomendation, the base image need needs to br upgraded from node:18.19.1 to node:21.7.0-bookworm-slim.
+From the recommendation, the base image needs to be updated from node:18.19.1 to node:21.7.0-bookworm-slim.
 
 ##
 To upgrade the base image, Open the forked repository on GitHub. 
@@ -102,13 +102,13 @@ To verify update, close and reopen SNYK check the current
 ## Verify Vulnerability Fix 
 ##
 
-The previous version of the Dockerfile base image had one critical severity issue, three high severity issues, one medium sevrity issue and one hundred and sixty-three low severity issues.
+The previous version of the Dockerfile base image had one critical severity issue, three high severity issues, one medium severity issue and one hundred and sixty-three low severity issues.
 
 <img width="916" alt="old vul" src="https://github.com/richard-acquah/Code-Repository-Scanning-With-SNYK-Lab/assets/136107996/98518bf7-79f3-4358-972e-b34df7548178">
 
 ##
 
-The update eliminated two of the three high severity vulnerability, eliminated the medium severity vulnerability and one hundred and thirty vulnerabilities out of the one hundred and sixty-three vulnerabilities.
+The update eliminated two of the three high-severity vulnerabilities, remediated the medium severity vulnerability and the one hundred and thirty vulnerabilities out of the one hundred and sixty-three vulnerabilities.
 
 <img width="890" alt="vul new fix" src="https://github.com/richard-acquah/Code-Repository-Scanning-With-SNYK-Lab/assets/136107996/603d9c3f-6e42-4d47-98a1-dd9f4e274576">
 
